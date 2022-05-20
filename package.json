@@ -1,0 +1,32 @@
+{
+  "name": "nft-1",
+  "version": "0.0.1",
+  "description": "nft using alchemy and web3.university",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mvikrammenon/nft-alchemy.git"
+  },
+  "keywords": [
+    "nft",
+    "hardhat"
+  ],
+  "author": "Vikram Menon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvikrammenon/nft-alchemy/issues"
+  },
+  "homepage": "https://github.com/mvikrammenon/nft-alchemy#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.6.6",
+    "hardhat": "^2.9.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0-solc-0.7",
+    "dotenv": "^16.0.1"
+  }
+}
